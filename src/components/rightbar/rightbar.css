@@ -1,0 +1,73 @@
+.rightbar {
+  flex: 3.5;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.bithdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.bithdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.bithdaytext {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.onlineFriend {
+  margin: 20px 0;
+}
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfoValue {
+  margin-right: 10px;
+  color: #555;
+}
+
+.followingImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
